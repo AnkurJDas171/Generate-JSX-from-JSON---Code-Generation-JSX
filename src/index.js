@@ -93,7 +93,7 @@ const createElements = (obj, elementString) => {
 
 function generateCodeFromObject(obj) {
   //return a code generated string
-  return `${createElements(obj, "")}`;
+  return <>{createElements(obj, "")}</>;
 }
 
 module.exports = generateCodeFromObject;
