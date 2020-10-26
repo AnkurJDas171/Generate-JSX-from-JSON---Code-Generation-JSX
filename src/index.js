@@ -59,7 +59,7 @@ const createStructure = (obj) => {
 
 function generateCodeFromObject(obj) {
   //return a code generated string
-  return `${createStructure()}`;
+  return `${createStructure(obj)}`;
 }
 
 module.exports = generateCodeFromObject;
